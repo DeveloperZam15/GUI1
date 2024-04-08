@@ -1,6 +1,6 @@
 ﻿namespace GUI1
 {
-    partial class Form1
+    partial class REGISTRO
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -30,13 +30,18 @@
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // REGISTRO
             // 
+            this.AccessibleName = "formPrincipal";
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.ClientSize = new System.Drawing.Size(804, 461);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.MaximizeBox = false;
+            this.Name = "REGISTRO";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "REGISTRO";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
 

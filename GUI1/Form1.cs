@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GUI1
 {
-    public partial class Form1 : Form
+    public partial class REGISTRO : Form
     {
-        public Form1()
+        public REGISTRO()
         {
             InitializeComponent();
         }
